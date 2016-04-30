@@ -1,0 +1,381 @@
+{
+  "resume": {
+    "name": {
+      "first": "Christopher",
+      "middle": "D.",
+      "last": "Meza"
+    },
+    "address": {
+      "street": "8809 Chisholm Trail",
+      "city": "Cross Roads",
+      "state": "Texas",
+      "zip": "76227"
+    },
+    "contact": {
+      "website": "www.webmechanix.net",
+      "email": "chrismeza@webmechanix.net",
+      "phone": "214.497.3251"
+    },
+    "summary": "An experienced Web Developer with 18 years hands-on web development and responsive design experience.  My strength lays heavy on end to end web technologies like HTML5, CSS3, JavaScript, PHP MVC Frameworks, and the full LAMP stack.  Most recently, I have been working on a hybrid mobile application, web development, and web services  for Munzee and prior to that I lead a team of web developers in the implementation of 12 websites for World Ventures leveraging the newest UI technologies like AngularJS.  Gained extensive Agile enterprise level experience working with companies like Travelocity and recently helped World Ventures with an Agile transformation.  With end to end web development experience, proven work ethic, and great communication skills I will prove to be an immediate asset for your organization.  I also won the inaugural AIM Consulting Most Valuable Consultant award in 2013.",
+    "skills": [
+      "PHP",
+      "JSP",
+      "GSP",
+      "ASP",
+      "JavaScript",
+      "AngularJS",
+      "jQuery",
+      "jQueryUI",
+      "NodeJS",
+      "Grunt",
+      "Composer",
+      "Bower",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "LESS",
+      "SASS",
+      "PHPStorm",
+      "IntelliJ",
+      "Eclipse",
+      "Aptana",
+      "Cygwin",
+      "PhotoShop",
+      "Illustrator",
+      "PERL",
+      "Object Oriented Programming",
+      "Relational Databases",
+      "Agile SDLC",
+      "MVC",
+      "SOLID",
+      "KISS",
+      "DRY",
+      "Git",
+      "Subversion"
+    ],
+    "jobs": [
+      {
+        "id": "201506-201604",
+        "company": {
+          "name": "Munzee Inc.",
+          "location": "McKinney, TX",
+          "website": "www.munzee.com"
+        },
+        "dateStart": "June 2015",
+        "dateEnd": "April 2016",
+        "title": "Senior Developer",
+        "details": [
+          {
+            "client": "Munzee",
+            "highlights": [
+              "Helped successfully launch the 3.0 version of the Munzee app in September 2015 as a hybrid app using Ionic Framework. Able to start contributing the immediately after starting thanks to my prior AngularJS experience. Mentored other developers on best practices for AngularJS",
+              "Successfully integrated Fitbit OAuth2 API in 3.1 version of the Munzee app in January 2016 allowing players to track their fitness progress right in the Munzee app. Future plans included adding support for other devices and I abstracted the implementation so that future devices could be added via API and not need an update to the application. The sole developer creating the API, app integration with AngularJS/HTML/CSS, and website pages",
+              "February 2016, began developing the private API for the Wallabee beta. Worked with Product owner to implement existing functionality in the new API, database schema changes for the hybrid app developed using Ionic Framework. Worked with junior developer on AngularJS mentoring, development solutions, etc. ",
+              "Overcame two obstacles with Wallabee Beta: The “Item Store” was moved to a push model using Pusher/AngularJS and “Item Mixing” was handled with a Strategy Pattern to handle mixing based on recipe type.",
+              "Successfully implemented core Agile features in Wallabee Beta development team, using a Kanban board to track story status and Basecamp to manage the backlog/requirements. Taught junior developer/product owner Agile best practices and product owner on proper requirements writing and planning. Also began planning on what would be the Minimally Viable Product for production release upon successful beta trials.",
+              "Implemented new features to the Eventzee API to allow the native apps to capture and persist Eventzee client tasks players could read about and created a new feature via Cron jobs that would enable Eventzee clients to allow all of their events/clues/tasks to be automatically started/stopped.",
+              "Helped manage most of the Munzee Inc  websites (Munzee/Eventzee/Wallabee/etc) for their games/applications and their associated separate web applications (blog/calendar/etc)",
+              "Used Slim PHP Framework and OOP PHP to build/maintain Application Services for websites and mobile apps",
+              "MySQL database was used for persistence of game data for players, game pieces, events, etc",
+              "Used Postman and their environment variables and tests pane to test local/production responses",
+              "Dependency Management was handled by Composer for PHP, NPM and Bower for Javascript/CSS, Grunt for automation, and Git was used for source control hosted on BitBucket/BeanStalk",
+              "Created a virtual machine for local development that closely matched production environment",
+              "Participated in product planning meetings as a developer and avid Munzee player",
+              "Mentored junior developer on development best practices and beginning Test Driven Development"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "201212-201505",
+        "company": {
+          "name": "AIM Consulting",
+          "location": "Dallas, TX",
+          "website": "www.aimconsulting.com"
+        },
+        "dateStart": "December 2012",
+        "dateEnd": "April 2015",
+        "title": "Principal Consultant, Web Solutions",
+        "details": [
+          {
+            "client": "American Heart Association",
+            "highlights": [
+              "Manage/maintain several WordPress websites with WordPress management tools like InfiniteWP/iControlWP",
+              "Update WordPress and plugins and test for compatibility with all sites",
+              "Clone new sites from a base image and configure according to product owner requirements",
+              "Build pages, load content from product owners documents/requirements",
+              "Researched performance issues on the virtual private server on remote host",
+              "Implemented a WordPress cache plugin to reduce page load times and server workload",
+              "Consulted on server migration requirements to avoid performance issues in the future by moving to an n-Tier architecture vs 1 machine running entire LAMP stack (Red Hat Enterprise Linux)",
+              "Migrated a third party PHP/MySQL application to an internal server, code reviewing the application to have the third party address best practices, cross site scripting vulnerabilities, and security issues"
+            ]
+          },
+          {
+            "client": "World Ventures",
+            "highlights": [
+              "Responsible for developing SOA based UI in CodeIgniter PHP Framework with MVC Methodology from comps",
+              "Standardized development across team in best practices, SOLID design principles, and development",
+              "Work closely with Project Manager to assess project needs, requirement gathering, and AGILE process implementation in a company that does not currently employ any methodology",
+              "Provided project assessment estimation and viability for agency and customer",
+              "Rapidly developed solutions in Front end development, PHP and project needs, including source control and release strategies",
+              "Built an API utilizing JSON to return data for flexible and dynamic views",
+              "Utilized jQuery and other jQuery plugins to add real time pricing updates based on customer amenity selections",
+              "Recently immersed in working with AngularJS in writing different services and to help increase the presence of responsive design on current sites",
+              "Lead team of web developers to meet extremely tight deadline on several other rapidly developed content sites",
+              "Conducted code reviews for web developers and provided sign off for production and QA releases"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "201006-201212",
+        "company": {
+          "name": "Travelocity",
+          "location": "Southlake, TX",
+          "website": "www.travelocity.com"
+        },
+        "dateStart": "June 2010",
+        "dateEnd": "December 2012",
+        "title": "Senior Software Developer",
+        "details": [
+          {
+            "client": "Travelocity",
+            "highlights": [
+              "Responsible for developing production ready HTML/CSS/JSP/GSP from UI/UX deliverables utilizing industry standard semantic code",
+              "Implemented UI coding and style guide for new UI Framework used on UI Separation project",
+              "Provided mentoring for other teammates on best practices for UI",
+              "Implemented UI Separation project on a Java Content Repository CMS to production in November 2012",
+              "SME in HTML/CSS semantic, cross browser code to improve overall Checkout area accessibility",
+              "Using JSP/JQuery/CSS, redesigned and implemented the Checkout Flight Seat Maps replacing decade old code that was not accessibility compliant (WCAG 2.0 AA)",
+              "Team Lead for the UI team of the UI Separation project utilizing Travelocity User Interface Framework (TUIF)",
+              "Completed 80% on Travelocity UI Framework (TUIF) of a UI separation over 14 iterations of the Agile SDLC Process, participating in daily stand ups, story planning, and retrospectives to monitor velocity and burn-downs",
+              "Responsible for implementation of asset management config for the UI Separation project into version control",
+              "Improved reusability and flexibility of UI components in TUIF keeping SOLID Design principles in mind",
+              "Standardized UI development practices on teams based in several countries utilizing Blueprint CSS framework",
+              "Used SASS CSS preprocessors to dynamically generate valid CSS3",
+              "Developed testing and automation techniques to improve team efficiency in delivering code (Selenium/iMacros)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "200910-201004",
+        "company": {
+          "name": "Flextronics",
+          "location": "Plano, TX",
+          "website": "www.flextronics.com"
+        },
+        "dateStart": "October 2009",
+        "dateEnd": "April 2010",
+        "title": "Application Engineer",
+        "details": [
+          {
+            "client": "Flextronics",
+            "highlights": [
+              "Responsible for modifications to an existing components database, environmental compliance database, and associated ASP-website",
+              "Develops application with object oriented programming in VBscript/ASP.  Creates and modifies database schema, normalization, and queries with TSQL. Interface hand-coded with HTML, CSS, and JavaScript",
+              "Provides direction and guidance of future development and design",
+              "Demonstrated application functionality and projected features to stake holders in several countries",
+              "Ensures manufacturing compliance in accordance to international regulations (RoHS/Reach/WEEE/etc) and significantly reduce manual labor and errors by developing an application with a normalized database structure",
+              "Improved productivity with Environmental Compliance Engineers in compiling and analyzing data to report to customers compliance with regards to international standards",
+              "Developed application interface to improve accuracy of the reporting by eliminating the need for engineers to manually manage the information on spreadsheets",
+              "Developed XML export function of data to be imported into report forms matching customer specific schemas to rapidly respond to customer's requests for compliance verification",
+              "Collected, implemented, and standardized specifications and requirements to meet the needs of teams located in United States, Germany, China, and other countries",
+              "Eliminated need to reacquire duplicate data from vendors and help improve customer relations",
+              "Rapidly implemented new functionality and customization which a separate group developing a similar application has yet to implement after a year of development",
+              "Decreases workload and stress on supervisor allowing him the ability to focus on his intended duties"
+
+            ]
+          }
+        ]
+      },
+      {
+        "id": "200712-200812",
+        "company": {
+          "name": "Insurity",
+          "location": "Dallas, TX",
+          "website": "www.insurity.com"
+        },
+        "dateStart": "December 2007",
+        "dateEnd": "December 2008",
+        "title": "Web Developer Consultant",
+        "details": [
+          {
+            "client": "Insurity",
+            "highlights": [
+              "As a PHP developer and member of the implementation team responsible for taking customers’ specifications and building out the modular interface to meet requirements of the insurance agent view",
+              "Responsible for implementing functional aspects and insurance related ratings in the system with PHP for several countries in Europe",
+              "Implemented insurance related questions to be saved and used for establishing rates, discounts, and fees",
+              "Worked with project manager, team lead, and team members to define the priority tasks with deadlines",
+              "PHP/CSS/JavaScript was hand coded in the application or IDE",
+              "Developed and implemented ahead of schedule a new state for a project I was team lead",
+              "Created rate matrixes with the customer provided rates to establish the policy fees",
+              "Tracked all changes to modules and core code for SAS70 requirements for FTC auditing",
+              "Developed work flow improvements to minimize confusing production issues",
+              "Became proficient in modular based environment that was used to construct insurance agent work flows"
+
+            ]
+          }
+        ]
+      },
+      {
+        "id": "200704-200711",
+        "company": {
+          "name": "Media Distribution Solutions",
+          "location": "Frisco, TX",
+          "website": "www.mediadistributionsolutions.com"
+        },
+        "dateStart": "April 2007",
+        "dateEnd": "November 2007",
+        "title": "PHP Developer",
+        "details": [
+          {
+            "client": "MDS",
+            "highlights": [
+              "Sole member responsible for updating the website’s content and database information on the only video real estate listing service provided by MDS to Dallas Morning News",
+              "Managed the site’s MySQL data, data structure, and query creation via phpMySQL",
+              "Responsible for creating the content as provided by the Dallas Morning News",
+              "Made improvements to existing code and added features as requested",
+              "Responsible for formatting graphics fit for web",
+              "Developed PHP functions for handling, formatting, and displaying data",
+              "Responsible for providing metrics on  the amount of clicks and views of the videos",
+              "Researched and attempted to implement Flash Media Server to replace current JavaScript invoked videos",
+              "Used Homesite to manage all scripts remotely",
+              "Was the technical contact between customer and provider",
+              "Managed, documented, and provided customer support to customer and provider to the website"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "200603-200702",
+        "company": {
+          "name": "imc²",
+          "location": "Dallas, TX",
+          "website": "www.imc2.com"
+        },
+        "dateStart": "March 2006",
+        "dateEnd": "February 2007",
+        "title": "Web Engineer",
+        "details": [
+          {
+            "client": "imc²",
+            "highlights": [
+              "Member of the consumer packaged goods team responsible for websites, email campaigns, and marketing",
+              "Implemented varying sites in ASP/JSP, as well as preparing HTML based email",
+              "Was the web developer responsible for the template design and implementation on MaxFactor.com’s website featuring Carmen Electra, winning a Dallas Addy Award",
+              "Created database driven websites, including edits/functionality changes, and implemented new products in the Oracle database or Struts configured files",
+              "Prepared HTML emails utilizing best practices as defined by Proctor & Gamble standards",
+              "Responsible for Proctor & Gamble’s websites including Olay.com, OlayDefinity.com, MaxFactor.com, Secret.com, OldSpice.com,  BeingGirl.com, Always.com, Clairol.com, Facebook, and MySpace on behalf of Crest.com, CrestWhitening.com, Millstone.com, PrilosecOTC.com, etc",
+              "Lead developer for Secret.com’s “Share Your Secret” campaign website using ASP and SQL",
+              "Created a database to track the status of “secrets” submitted by site users",
+              "Developed an administrative tool to assess/manage information so only approved content would be displayed",
+              "Prepared website templates and devised cutting strategies to reduce rework of sites"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "200210-200601",
+        "company": {
+          "name": "QuickCARE Software Services, LP",
+          "location": "Frisco, TX",
+          "website": "www.quickcare.com"
+        },
+        "dateStart": "October 2002",
+        "dateEnd": "January 2006",
+        "title": "Web Developer",
+        "details": [
+          {
+            "client": "QuickCARE",
+            "highlights": [
+              "In charge of design, development, and maintenance of the Internet and Intranet websites, as well as graphic and print design for company newsletter and promotional materials/items for tradeshows",
+              "Redesigned quickcare.com, the company’s original website, to provide a customer friendly site implementing the requirements and directives of company executives using ASP and SQL Server",
+              "Also, designed and implemented qc3net.com to preview the company’s new product and replace quickcare.com",
+              "Created, implemented, and maintained obra-ez.com to introduce the company’s more affordable product line",
+              "Successfully optimized website for search engines to ensure Top 10 ranking in target keyword searches",
+              "Developed and ensured compliance with company brand and logo usage.",
+              "Collaborated in marketing strategies and advertisements for delivery to industry magazines",
+              "Generated CEO-level reports of customer details from CRM System via SQL Reporting Services/Visual Studio",
+              "Designed, managed, and collated content and production of newsletters for QuickCARE and OBRA-EZ",
+              "Assisted in wiring phone (RJ11) and computer (RJ45) network at the company’s new facility"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "200202-200209",
+        "company": {
+          "name": "Interactive Associates, Inc",
+          "location": "Fort Worth, TX",
+          "website": "www.interactiveassociates.com"
+        },
+        "dateStart": "February 2002",
+        "dateEnd": "September 2002",
+        "title": "Web Developer",
+        "details": [
+          {
+            "client": "Interactive",
+            "highlights": [
+              "Designed, developed, and maintained sites for clients in real estate, academia, and biomedical firms",
+              "Collaborated in design and development of websites based on assessed customer needs",
+              "Created and edited graphics for website layout and content via Photoshop and Illustrator",
+              "Developed productivity enhancing methods of organizing and managing websites for clients",
+              "Tested and debugged website design concepts and templates.",
+              "Responsible for creating high functioning, low maintenance sites and navigation via ASP/SSI",
+              "Designed and developed functions to automatically update websites with time sensitive content",
+              "Developed and implemented more effective management of pop-up windows via JavaScript"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "200008-200104",
+        "company": {
+          "name": "Research Institute of America",
+          "location": "Carrollton, TX",
+          "website": "www.thomsonreuters.com"
+        },
+        "dateStart": "August 2000",
+        "dateEnd": "April 2001",
+        "title": "Web Developer",
+        "details": [
+          {
+            "client": "RIA",
+            "highlights": [
+              "Collaborated with team members to develop a new e-Commerce site using ASP and Site Server, graphics, assurance of cross-browser compatibility for the scheduled launch.  (www.riahome.com)",
+              "Developed a user-friendly Intranet site to automatically change themes monthly.",
+              "Created a calendar and newsletter site (ASP and XML) to allow for updating ease by those with limited HTML expertise.",
+              "In-house consultation regarding HTML, PhotoShop created graphics, Flash, and Netscape issues; managed IIS servers.",
+              "Lead contact in implementation and training of a project management time tracking application."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "199902-200008",
+        "company": {
+          "name": "The Integrity Group",
+          "location": "Houston, TX",
+          "website": "www.go-integrity.com"
+        },
+        "dateStart": "February 1999",
+        "dateEnd": "August 2000",
+        "title": "Web and Flash Developer",
+        "details": [
+          {
+            "client": "Compaq Enterprise Services and Solutions",
+            "highlights": [
+              "Editor-in-Chief/Project Manager for Enterprise Software; created and maintained this section of the site.",
+              "Researched and compiled information from the Compaq enterprise software product catalog for use in database driven websites for Product Information Repository System (PIRS) and Compaq Content Manager (CCM) tools for future rendering on Compaq.com.",
+              "Developed graphics using PhotoShop and Illustrator that were incorporated in the enterprise website.",
+              "Assisted in ASP development of various applications for the Compaq Intranet.",
+              "Developed Flash multi-media presentations for use on the web and promotional CDs.",
+              "Accompanied marketing team members to assess the needs and wants of potential clients and websites."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
