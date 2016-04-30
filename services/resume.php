@@ -13,7 +13,23 @@ $app->group('/resume', function() use ($app) {
     $resume = new \API\Resume\Resume();
 
     echo json_encode(
-        $resume->jobs()
+        $resume->jobs(false)
+    );
+  });
+
+  $app->get('/jobs/min', function() use ($app) {
+    $resume = new \API\Resume\Resume();
+
+    echo json_encode(
+        $resume->jobs(true)
+    );
+  });
+
+  $app->get('/summary', function() use ($app) {
+    $resume = new \API\Resume\Resume();
+
+    echo json_encode(
+        $resume->summary()
     );
   });
 });
