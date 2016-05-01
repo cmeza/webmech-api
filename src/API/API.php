@@ -15,7 +15,7 @@ class API
     $keyFromHeader = (isset($_SERVER['HTTP_X_WEBMECHANIX_APIKEY']))
                       ? $_SERVER['HTTP_X_WEBMECHANIX_APIKEY'] : '';
 
-    if ($keyFromHeader == '' || $keyFromHeader !== $config->apiKey) {
+    if ($keyFromHeader == '' || !in_array($keyFromHeader, $config->apiKeys)) {
       $this->throw_error('API KEY IS MISSING OR WRONG');
     }
   }
