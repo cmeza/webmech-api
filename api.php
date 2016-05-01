@@ -1,6 +1,8 @@
 <?php
 
-require 'vendor/autoload.php';
+//ini_set('display_errors', 1);
+
+require __DIR__ . '/vendor/autoload.php';
 require '../webmech.config.php';
 
 $app = new \Slim\Slim(array('debug' => true));

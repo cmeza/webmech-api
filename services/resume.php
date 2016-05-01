@@ -1,8 +1,9 @@
 <?php
 
 $app->group('/resume', function() use ($app) {
+
   $app->get('/detail/:job_id', function($job_id = 0) use ($app) {
-    $resume = new \API\Resume\Resume();
+    $resume = new \WebMechanix\API\Resume\Resume();
 
     echo json_encode(
         $resume->details($job_id)
@@ -10,7 +11,7 @@ $app->group('/resume', function() use ($app) {
   });
 
   $app->get('/jobs', function() use ($app) {
-    $resume = new \API\Resume\Resume();
+    $resume = new \WebMechanix\API\Resume\Resume();
 
     echo json_encode(
         $resume->jobs(false)
@@ -18,7 +19,7 @@ $app->group('/resume', function() use ($app) {
   });
 
   $app->get('/jobs/min', function() use ($app) {
-    $resume = new \API\Resume\Resume();
+    $resume = new \WebMechanix\API\Resume\Resume();
 
     echo json_encode(
         $resume->jobs(true)
@@ -26,10 +27,11 @@ $app->group('/resume', function() use ($app) {
   });
 
   $app->get('/summary', function() use ($app) {
-    $resume = new \API\Resume\Resume();
+    $resume = new \WebMechanix\API\Resume\Resume();
 
     echo json_encode(
         $resume->summary()
     );
   });
+
 });
