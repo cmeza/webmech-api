@@ -1,0 +1,20 @@
+{
+  "name": "cmeza/webmech-api",
+  "authors": [
+    {
+      "name": "Chris Meza",
+      "email": "chrismeza@webmechanix.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },  
+  "require": {
+    "slim/slim": "2.6.*", 
+    "j4mie/idiorm": "1.5.1",
+    "palanik/corsslim": "^1.1"
+  },
+  "minimum-stability": "stable"
+}
