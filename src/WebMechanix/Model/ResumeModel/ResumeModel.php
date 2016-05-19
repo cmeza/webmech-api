@@ -12,8 +12,8 @@ class ResumeModel extends ModelAbstract
   {
     parent::__construct();
 
-    $file = fopen($this->config->resumeFile, 'r');
-    $this->data = json_decode(fread($file, filesize($this->config->resumeFile)));
+    $file = fopen($this->config->resumeFile->json, 'r');
+    $this->data = json_decode(fread($file, filesize($this->config->resumeFile->json)));
   }
 
   /**

@@ -58,6 +58,25 @@ class Resume extends ApiAbstract
     return $summary;
   }
 
+  /**
+   * Load the latest resume docx file from local
+   *
+   * @param $email
+   * @return \stdClass
+   */
+  public function file($email)
+  {
+    $file = readfile($this->config->resumeFile->docx);
+
+//    $response = new \stdClass();
+//    $response->file     = $file;
+//    $response->fileDate = $this->config->resumeDate;
+
+    $this->trackEmail($email, $this->config->resumeDate);
+
+    return $file;
+  }
+
 
   /**
    * Gets the ResumeModel
@@ -97,5 +116,10 @@ class Resume extends ApiAbstract
     }
 
     return $minJobs;
+  }
+
+  private function trackEmail($email, $date)
+  {
+    // add to db
   }
 }
