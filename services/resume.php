@@ -2,7 +2,7 @@
 
 $app->group('/resume', function() use ($app) {
 
-  $app->get('/detail/:job_id', function($job_id = 0) use ($app) {
+  $app->get('/detail/:job_id(/)', function($job_id = 0) use ($app) {
     $resume = new \WebMechanix\API\Resume\Resume();
 
     echo json_encode(
@@ -10,7 +10,7 @@ $app->group('/resume', function() use ($app) {
     );
   });
 
-  $app->get('/jobs', function() use ($app) {
+  $app->get('/jobs(/)', function() use ($app) {
     $resume = new \WebMechanix\API\Resume\Resume();
 
     echo json_encode(
@@ -18,7 +18,7 @@ $app->group('/resume', function() use ($app) {
     );
   });
 
-  $app->get('/jobs/min', function() use ($app) {
+  $app->get('/jobs/min(/)', function() use ($app) {
     $resume = new \WebMechanix\API\Resume\Resume();
 
     echo json_encode(
@@ -26,7 +26,7 @@ $app->group('/resume', function() use ($app) {
     );
   });
   
-  $app->get('/summary', function() use ($app) {
+  $app->get('/summary(/)', function() use ($app) {
     $resume = new \WebMechanix\API\Resume\Resume();
     
     echo json_encode(
@@ -34,7 +34,7 @@ $app->group('/resume', function() use ($app) {
     );
   });
   
-  $app->post('/file', function() use ($app) {
+  $app->post('/file(/)', function() use ($app) {
     $resume = new \WebMechanix\API\Resume\Resume();
 
     $email = $app->request->post('emailAddress');
@@ -46,5 +46,13 @@ $app->group('/resume', function() use ($app) {
     $file = $resume->file();
     
     echo $file;
+  });
+
+  $app->get('/file/info(/)', function () use ($app) {
+    $resume = new \WebMechanix\API\Resume\Resume();
+
+    echo json_encode(
+      $resume->fileInfo()
+    );
   });
 });
