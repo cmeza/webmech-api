@@ -38,9 +38,13 @@ $app->group('/resume', function() use ($app) {
     $resume = new \WebMechanix\API\Resume\Resume();
 
     $email = $app->request->post('emailAddress');
+    $resume->trackDownload($email);
     
     $app->response->header('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+    $app->response->header('Content-Transfer-Encoding', 'binary');
+
+    $file = $resume->file();
     
-    echo $resume->file($email);
+    echo $file;
   });
 });

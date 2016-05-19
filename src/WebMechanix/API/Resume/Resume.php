@@ -64,17 +64,37 @@ class Resume extends ApiAbstract
    * @param $email
    * @return \stdClass
    */
-  public function file($email)
+  public function file()
   {
     $file = readfile($this->config->resumeFile->docx);
 
-//    $response = new \stdClass();
-//    $response->file     = $file;
-//    $response->fileDate = $this->config->resumeDate;
-
-    $this->trackEmail($email, $this->config->resumeDate);
-
     return $file;
+  }
+
+
+
+//    $fileInfo = $resume->fileInfo();
+//    $app->response->header('Content-Length:', $fileInfo->fileSize);
+//    $app->response->header('Content-Disposition', 'attachment; filename=' . $fileInfo->fileName);
+  public function fileInfo()
+  {
+    $parts = pathinfo($this->config->resumeFile->docx);
+
+    $response = new \stdClass();
+    $response->fileDate = $this->config->resumeDate;
+    $response->fileSize = filesize($this->config->resumeFile->docx);
+    $response->fileName = $parts['basename'];
+
+    return $response;
+  }
+
+
+  public function trackDownload($email)
+  {
+    // add to db
+    // date of file $this->config->resumeDate
+    // date file was downloaded
+    // email address
   }
 
 
@@ -116,10 +136,5 @@ class Resume extends ApiAbstract
     }
 
     return $minJobs;
-  }
-
-  private function trackEmail($email, $date)
-  {
-    // add to db
   }
 }
