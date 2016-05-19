@@ -8,7 +8,6 @@ require '../webmech.config.php';
 $app = new \Slim\Slim(array('debug' => true));
 $response = $app->response();
 $response['Content-Type'] = 'application/json';
-//$response['Access-Control-Allow-Origin'] = '*';
 
 $corsOptions = [
   'origin'        => '*',

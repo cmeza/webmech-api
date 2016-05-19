@@ -25,13 +25,22 @@ $app->group('/resume', function() use ($app) {
         $resume->jobs(true)
     );
   });
-
+  
   $app->get('/summary', function() use ($app) {
     $resume = new \WebMechanix\API\Resume\Resume();
-
+    
     echo json_encode(
         $resume->summary()
     );
   });
+  
+  $app->post('/file', function() use ($app) {
+    $resume = new \WebMechanix\API\Resume\Resume();
 
+    $email = $app->request->post('emailAddress');
+    
+    $app->response->header('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+    
+    echo $resume->file($email);
+  });
 });
