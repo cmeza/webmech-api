@@ -57,6 +57,37 @@
     ],
     "jobs": [
       {
+        "id": "201606-201611",
+        "company": {
+          "name": "ForSaleByOwner.com (Tronc)",
+          "location": "Lewisville, TX",
+          "website": "www.forsalebyowner.com"
+        },
+        "dateStart": "June 2016",
+        "dateEnd": "November 2016",
+        "title": "Senior Software Engineer",
+        "details": [
+          {
+            "client": "ForSaleByOwner",
+            "highlights": [
+              "PHP development with Laravel 5.x/Silex 1.x/CodeIgniter 2.x frameworks for an e-commerce application with PHPUnit testing required to pass a build",
+              "VueJS/AngularJS development and styles compiled with SASS/LESS using Grunt/Gulp",
+              "Successfully implemented the Widget Architecture, a responsive ad widget platform for third party integration. The architecture included a Laravel based API at the core with VueJS components connecting to the API. Separated all the configuration and implementation based on a random hash and script block injector. That hash could be implemented as any of our widget types (mortgage calculator, savings calculator, and more planned) and not require a code change from the client to change the widget type. The configuration was managed via a Laravel CRUD interface to manage and implement widgets at will. PHPUnit tests coverage was fairly high.",
+              "Implemented a Search API that interfaced with Solr API via Solarium, built the Lucene queries dynamically with the aid of a Criteria plugin and PHPUnit tests",
+              "Began implementing “Feed Manager”, a configurable application managing importing of various data (XML/SQL/flat file/etc) from various third party sources and tracking status. Used the Strategy Pattern of managing each source’s data type and storage method individually",
+              "Maintained existing 1.0 app and worked on implementing new UI redesign",
+              "LAMP/LEMP administration and configuration of 2.0 Digital Ocean Ubuntu droplets and 1.0 server migrations from CentOS 5/6 to 7",
+              "Agile Environment using either Scrum or Kanban, depending on team and project with project management tracking via JIRA and/or Confluence",
+              "Conducted code reviews of peer’s pull requests as part of our Git branching strategy",
+              "Documented best practices for other developers in our Git branching strategies, best practices using Sourcetree, and code documentation/ReadMe",
+              "Managed Docker configurations and administration to ensure all environments functioned as needed",
+              "Source control was Git via Github/Gitlab with Sourcetree Client",
+              "Continuous Integration (Codeship/Jenkins)"
+            ]
+          }
+        ]
+      },
+      {
         "id": "201506-201604",
         "company": {
           "name": "Munzee",
