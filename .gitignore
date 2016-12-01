@@ -44,3 +44,7 @@ templates_cache
 memcache
 bower_components
 phpinfo.php
+
+######################
+# PROJECT SPECIFIC
+src/WebMechanix/Data/*
